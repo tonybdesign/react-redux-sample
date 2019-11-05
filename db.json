@@ -1,0 +1,72 @@
+{
+  "todoList": [
+    {
+      "title": "dfsd",
+      "favorite": false,
+      "description": "fdsf",
+      "shortDescription": "dsfds",
+      "id": 1,
+      "done": true
+    },
+    {
+      "title": "json-server",
+      "favorite": true,
+      "description": "343",
+      "shortDescription": "343",
+      "id": 2
+    },
+    {
+      "title": "454334",
+      "favorite": false,
+      "description": "rteert",
+      "shortDescription": "reter",
+      "id": 3,
+      "done": true
+    },
+    {
+      "title": "Tedt",
+      "favorite": false,
+      "description": "ewrewrewewre",
+      "shortDescription": "rewrew",
+      "id": 4
+    },
+    {
+      "title": "343",
+      "favorite": false,
+      "description": "343",
+      "shortDescription": "34343",
+      "id": 5
+    },
+    {
+      "title": "rtre",
+      "favorite": true,
+      "description": "reter",
+      "shortDescription": "tret",
+      "id": 6
+    },
+    {
+      "title": "6",
+      "favorite": true,
+      "description": "766",
+      "shortDescription": "76",
+      "id": 7
+    },
+    {
+      "title": "jkjk",
+      "favorite": true,
+      "description": "jhkjhk",
+      "shortDescription": "jhkkhj",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
