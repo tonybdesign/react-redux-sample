@@ -18,7 +18,7 @@ const PageHeader = ({ children }) => (
 );
 
 PageHeader.propTypes = {
-  children: PropTypes.oneOf(['error', 'info', 'success', 'warning']).isRequired,
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
 };
 
 export default PageHeader;

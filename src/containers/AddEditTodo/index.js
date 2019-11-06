@@ -175,11 +175,7 @@ export const handleSubmit = async (
         variant: 'success',
         message: intl.formatMessage(messages.saveSuccess),
       });
-      resetForm({
-        title: '',
-        description: '',
-        shortDescription: '',
-      });
+      resetForm({});
     }
 
     setSubmitting(false);
@@ -199,7 +195,11 @@ const mapPropsToValues = ({
     description = '',
     shortDescription = '',
   },
-}) => (id ? { title, description, shortDescription} : {});
+}) => (id ? { title, description, shortDescription} : {
+  title: '',
+  description: '',
+  shortDescription: ''}
+);
 
 const mapStateToProps = (state) => ({
   todo: selectTodo(state),
