@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "app.appTopBar.appName",
+    "defaultMessage": "React Redux Todo List",
+    "filepath": "src/components/AppBar/messages.js"
+  },
+  {
+    "id": "app.appTopBar.login",
+    "defaultMessage": "Home/List",
+    "filepath": "src/components/AppBar/messages.js"
+  },
+  {
+    "id": "app.appTopBar.addTodo",
+    "defaultMessage": "Add",
+    "filepath": "src/components/AppBar/messages.js"
+  },
+  {
+    "id": "app.appTopBar.favoritesTodoList",
+    "defaultMessage": "Favorites",
+    "filepath": "src/components/AppBar/messages.js"
+  },
+  {
+    "id": "app.modal.confirm",
+    "defaultMessage": "Confirm",
+    "filepath": "src/components/Modal/messages.js"
+  },
+  {
+    "id": "app.modal.cancel",
+    "defaultMessage": "Cancel",
+    "filepath": "src/components/Modal/messages.js"
+  },
+  {
+    "id": "app.modal.title",
+    "defaultMessage": "Modal",
+    "filepath": "src/components/Modal/messages.js"
+  },
+  {
+    "id": "app.editTodo.fieldTitle",
+    "defaultMessage": "Title",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.fieldShortDescription",
+    "defaultMessage": "Short description",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.fieldDescription",
+    "defaultMessage": "Full description",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.saveButton",
+    "defaultMessage": "Save",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.fieldRequired",
+    "defaultMessage": "Required",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.saveSuccess",
+    "defaultMessage": "Todo successfully saved!",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.updateSuccess",
+    "defaultMessage": "Todo successfully updated!",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.updateFail",
+    "defaultMessage": "Some error during saving todo!",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.pageTitle",
+    "defaultMessage": "Add todo form",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.editTodo.pageTitleEdit",
+    "defaultMessage": "Edit todo form: {name}",
+    "filepath": "src/containers/AddEditTodo/messages.js"
+  },
+  {
+    "id": "app.todoList.pageTitleList",
+    "defaultMessage": "My todo list",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.pageTitleListFav",
+    "defaultMessage": "My favorites todos",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.deleteNotificationSuccess",
+    "defaultMessage": "Todo id: {id} successfully deleted",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.deleteModalTitle",
+    "defaultMessage": "Delete item with id: {id}?",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.deleteModalContent",
+    "defaultMessage": "Are you sure you want to delete this todo?",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.theadId",
+    "defaultMessage": "ID",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.theadName",
+    "defaultMessage": "Name",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.theadShortDescription",
+    "defaultMessage": "Short Description",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.theadFinished",
+    "defaultMessage": "Finished",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.theadFavorite",
+    "defaultMessage": "Favorite",
+    "filepath": "src/containers/TodoList/messages.js"
+  },
+  {
+    "id": "app.todoList.theadActions",
+    "defaultMessage": "Actions",
+    "filepath": "src/containers/TodoList/messages.js"
+  }
+]

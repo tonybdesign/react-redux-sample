@@ -1,8 +1,8 @@
-import { createSelector } from 'reselect'
+import { createSelector } from 'reselect';
 
-const localizationSelector = state => state.localization
+const localizationSelector = (state) => state.localization;
 
 export const selectLanguage = createSelector(
- localizationSelector,
-  localization => localization.language
+  localizationSelector,
+  (localization) => localization.language,
 );

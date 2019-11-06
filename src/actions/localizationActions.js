@@ -1,6 +1,6 @@
-import {SET_LANGUAGE} from './actionTypes'
+import { SET_LANGUAGE } from './actionTypes';
 
-export const setLanguage = language => ({
+export const setLanguage = (language) => ({
   type: SET_LANGUAGE,
-  payload: language
-})
+  payload: language,
+});

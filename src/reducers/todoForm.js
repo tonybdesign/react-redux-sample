@@ -5,7 +5,7 @@ import {
   UPDATE_TODO_FORM,
   UPDATE_TODO_FORM_SUCCESS,
   UPDATE_TODO_FORM_FAILURE,
-  RESET_TODO_FORM
+  RESET_TODO_FORM,
 } from '../actions/actionTypes';
 import { readyState } from '../constants/states';
 
@@ -17,22 +17,26 @@ const initialState = {
 const todoFormReducer = (state = initialState, { type, payload, error }) => {
   switch (type) {
     case GET_TODO_FORM:
-      return {...state, readyState: readyState.loading};
+      return { ...state, readyState: readyState.loading };
     case GET_TODO_FORM_SUCCESS:
-      return {...state, readyState: readyState.ok, todo: payload};
+      return { ...state, readyState: readyState.ok, todo: payload };
     case GET_TODO_FORM_FAILURE:
-      return {...state, readyState: readyState.error};
+      return { ...state, readyState: readyState.error };
     case UPDATE_TODO_FORM:
       return ({ ...state, readyState: readyState.loading });
     case UPDATE_TODO_FORM_SUCCESS:
-      return {...state, readyState: readyState.ok, todo: { ...state.todo, ...payload}, error: undefined};
+      return {
+        ...state, readyState: readyState.ok, todo: { ...state.todo, ...payload }, error: undefined,
+      };
     case UPDATE_TODO_FORM_FAILURE:
-      return {...state, error: error.errors, todo: payload, readyState: readyState.error};
+      return {
+        ...state, error: error.errors, todo: payload, readyState: readyState.error,
+      };
     case RESET_TODO_FORM:
-      return {...initialState};
+      return { ...initialState };
     default:
       return state;
   }
-}
+};
 
 export default todoFormReducer;

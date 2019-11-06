@@ -2,15 +2,15 @@ import { SET_LANGUAGE } from '../actions/actionTypes';
 
 const initialState = {
   language: 'en',
-}
+};
 
-const localizationReducer = (state = initialState, {type, payload}) => {
-  switch(type) {
+const localizationReducer = (state = initialState, { type, payload }) => {
+  switch (type) {
     case SET_LANGUAGE:
-      return ({...state, language: payload})
+      return ({ ...state, language: payload });
     default:
-      return state
+      return state;
   }
-}
+};
 
 export default localizationReducer;
